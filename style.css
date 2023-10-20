@@ -1,0 +1,605 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500&family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&family=Lobster&family=Permanent+Marker&family=Sedgwick+Ave+Display&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600&family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&family=Lobster&family=Permanent+Marker&family=Sedgwick+Ave+Display&family=Ubuntu&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    width: 1440px;
+    background-color:rgb(229, 241, 252);
+}
+.container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 200px;
+    margin-top: 100px;
+}
+.big-small{
+    display: flex;
+    width: 80%;
+    margin-top: 10px;
+}
+.big{
+    position: relative;
+    width: 55%;
+    background-color: hsl(263, 55%, 52%);
+    border-radius: 8px;
+    margin-right: 40px;
+    height: 280px;
+}
+.small{
+    width: 25%;
+    background-color: hsl(217, 19%, 35%);
+    position: relative;
+    border-radius: 8px;
+    height: 280px;
+}
+.big img{
+    border-radius: 50%;
+    border: 3px solid #A775F1;
+    margin-left: 35px;
+    margin-right: 35px;
+    width: 7%;
+    position: relative;
+    top: -35px;
+}
+svg{
+    /* position: relative; */
+    left: 320px;
+    z-index: 49;
+    margin-left: 280px;
+}
+.big-small .big .name{
+    position: absolute;
+    left: 110px;
+    top: 25px;
+    color: hsl(210, 46%, 95%);
+    font-weight: bold;
+    opacity: 70%;
+    font-weight: bold;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Lobster', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-family: 'Ubuntu', sans-serif;
+}
+.big-small .big .work{
+    position: absolute;
+    left: 110px;
+    top: 45px;
+    color: hsl(0, 0%, 81%);
+    opacity: 50%;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Lobster', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-family: 'Ubuntu', sans-serif;
+}
+.big-small .big h3{
+    width: 86%;
+    z-index: 50;
+    margin: -30px 37px;
+    color: hsl(210, 46%, 95%);
+    font-weight: bold;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Lobster', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 25px;
+    font-size: 20px;
+}
+.big-small .big .explan{
+    width: 478px;
+    font-size: 13px;
+    margin: 50px 37px;
+    color: hsl(0, 0%, 81%);
+    opacity: 50%;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Lobster', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-family: 'Ubuntu', sans-serif;
+    width: 88%;
+    line-height: 16px;
+    font-weight: bold;   
+}
+.big-small .small .name{
+    position: absolute;
+    color: hsl(210, 46%, 95%);
+    font-weight: bold;
+    opacity: 70%;
+    font-weight: bold;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Lobster', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-family: 'Ubuntu', sans-serif;
+    left: 100px;
+    top: 30px;
+}
+.big-small .small img{
+    border-radius: 50%;
+    margin: 25px 35px;
+    width: 14%;
+}
+.big-small .small .work{
+    position: absolute;
+    color: hsl(0, 0%, 81%);
+    opacity: 50%;
+    left: 100px;
+    top: 50px;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Lobster', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-family: 'Ubuntu', sans-serif;
+}
+.big-small .small h3{
+    margin: -20px 37px;
+    color: hsl(210, 46%, 95%);
+    font-weight: bold;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Lobster', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 25px;
+    font-size: 20px;
+    width: 90%;   
+}
+.big-small .small .explan{
+    font-weight: bold;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Lobster', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-family: 'Ubuntu', sans-serif;
+    opacity: 50%;
+    color: hsl(0, 0%, 81%);
+    font-size: 13px;
+    margin: 39px 37px;
+    line-height: 16px;   
+}
+.small-big{
+    display: flex;
+    width: 80%;
+    margin-top: 25px;   
+}
+.small-big .small{
+    background-color: hsl(0, 0%, 100%);
+    position: relative;
+    border-radius: 8px;
+    height: 280px;
+    margin-right: 40px;
+}
+.small-big .small .name{
+    position: absolute;
+    color: hsl(219, 29%, 14%);
+    font-weight: bold;
+    opacity: 70%;
+    font-weight: bold;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Lobster', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-family: 'Ubuntu', sans-serif;
+    left: 100px;
+    top: 30px;
+}
+.small-big .small img{
+    border-radius: 50%;
+    margin: 25px 35px;
+    width: 14%;
+}
+.small-big .small .work{
+    position: absolute;
+    color: hsl(219, 29%, 14%);
+    opacity: 50%;
+    left: 100px;
+    top: 50px;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Lobster', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-family: 'Ubuntu', sans-serif;
+}
+.small-big .small h3{
+    margin: -15px 37px;
+    color: hsl(219, 29%, 14%);
+    font-weight: bold;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Lobster', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 25px;
+    font-size: 20px;
+    width: 70%;   
+}
+.small-big .small .explan{
+    font-weight: bold;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Lobster', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-family: 'Ubuntu', sans-serif;
+    opacity: 50%;
+    color: hsl(219, 29%, 14%);
+    font-size: 13px;
+    margin: 39px 37px;
+    line-height: 16px;   
+}
+.small-big .big{
+    position: relative;
+    width: 55%;
+    background-color: hsl(219, 29%, 14%);
+    border-radius: 8px;
+    height: 280px;
+}
+.small-big .big img{
+    border-radius: 50%;
+    border: 3px solid #A775F1;
+    margin-left: 35px;
+    margin-right: 35px;
+    width: 7%;
+    position: relative;
+    top: 17px;
+}
+.small-big .big .name{
+    position: absolute;
+    left: 110px;
+    top: 25px;
+    color: hsl(210, 46%, 95%);
+    font-weight: bold;
+    opacity: 70%;
+    font-weight: bold;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Lobster', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-family: 'Ubuntu', sans-serif;
+}
+.small-big .big .work{
+    position: absolute;
+    left: 110px;
+    top: 45px;
+    color: hsl(0, 0%, 81%);
+    opacity: 50%;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Lobster', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-family: 'Ubuntu', sans-serif;
+}
+.small-big .big h3{
+    width: 86%;
+    z-index: 50;
+    margin: 30px 37px;
+    color: hsl(210, 46%, 95%);
+    font-weight: bold;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Lobster', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 25px;
+    font-size: 20px;
+}
+.small-big .big .explan{
+    width: 478px;
+    font-size: 13px;
+    margin: 20px 37px;
+    color: hsl(0, 0%, 81%);
+    opacity: 50%;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Lobster', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-family: 'Ubuntu', sans-serif;
+    width: 85%;
+    line-height: 16px;
+    font-weight: bold;   
+}
+.last{
+    width: 20%;
+    margin: -278px -156px;
+    background-color: hsl(0, 0%, 100%);
+    height: 583px;
+    border-radius: 8px;
+}
+.last .name{
+    position: absolute;
+    color: hsl(219, 29%, 14%);
+    font-weight: bold;
+    opacity: 70%;
+    font-weight: bold;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Lobster', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-family: 'Ubuntu', sans-serif;
+    left: 1290px;
+    top: 140px;
+}
+.last img{
+    border-radius: 50%;
+    margin: 23px 35px;
+    width: 14%;
+}
+.last .work{
+    position: absolute;
+    color: hsl(219, 29%, 14%);
+    opacity: 50%;
+    left: 1290px;
+    top: 160px;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Lobster', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-family: 'Ubuntu', sans-serif;
+}
+.last h3{
+    margin: -15px 37px;
+    color: hsl(219, 29%, 14%);
+    font-weight: bold;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Lobster', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 25px;
+    font-size: 20px;
+    width: 70%;   
+}
+.last .explan{
+    font-weight: bold;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Lobster', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-family: 'Ubuntu', sans-serif;
+    opacity: 50%;
+    color: hsl(219, 29%, 14%);
+    font-size: 13px;
+    margin: 29px 37px;
+    line-height: 19px;
+    width: 76%;   
+}
+@media (max-width:375px){
+    body{
+        margin: 0px;
+        padding: 0px;
+    }
+    .container{
+        margin: 20px 15px;
+        display:flex;
+        flex-wrap: wrap;
+        width: 100% ;
+    }
+    .big-small{
+        display: block;
+    }
+    .big{
+        position: relative;
+        width: 30%;
+        background-color: hsl(263, 55%, 52%);
+        border-radius: 8px;
+        height: 450px;
+        margin-bottom: 20px;
+    }
+    .big img{
+        border-radius: 50%;
+        border: 3px solid #A775F1;
+        margin-left: 35px;
+        margin-right: 35px;
+        width: 10%;
+        position: relative;
+        top: 18px;
+    }
+    svg{
+        /* position: relative; */
+        margin-left: 220px;
+        margin-top: -45px;
+    }
+    .big-small .big .name{
+        position: absolute;
+        left: 95px;
+        top: 25px;
+        color: hsl(210, 46%, 95%);
+        font-weight: bold;
+        opacity: 70%;
+        font-weight: bold;
+        font-family: 'Barlow Semi Condensed', sans-serif;
+        font-family: 'Big Shoulders Display', sans-serif;
+        font-family: 'Lexend Deca', sans-serif;
+        font-family: 'Lobster', sans-serif;
+        font-family: 'Permanent Marker', cursive;
+        font-family: 'Sedgwick Ave Display', cursive;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    .big-small .big .work{
+        position: absolute;
+        left: 95px;
+        top: 45px;
+        color: hsl(0, 0%, 81%);
+        opacity: 50%;
+        font-size: 13px;
+        font-weight: bold;
+        font-family: 'Barlow Semi Condensed', sans-serif;
+        font-family: 'Big Shoulders Display', sans-serif;
+        font-family: 'Lexend Deca', sans-serif;
+        font-family: 'Lobster', sans-serif;
+        font-family: 'Permanent Marker', cursive;
+        font-family: 'Sedgwick Ave Display', cursive;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    .big-small .big h3{
+        width: 278px;
+        margin: -30px 37px;
+        color: hsl(210, 46%, 95%);
+        font-weight: bold;
+        font-family: 'Barlow Semi Condensed', sans-serif;
+        font-family: 'Big Shoulders Display', sans-serif;
+        font-family: 'Lexend Deca', sans-serif;
+        font-family: 'Lobster', sans-serif;
+        font-family: 'Permanent Marker', cursive;
+        font-family: 'Sedgwick Ave Display', cursive;
+        font-family: 'Ubuntu', sans-serif;
+        line-height: 27px;
+    }
+    .big-small .big .explan{
+        font-size: 13px;
+        margin: 50px 37px;
+        color: hsl(0, 0%, 81%);
+        opacity: 50%;
+        font-family: 'Barlow Semi Condensed', sans-serif;
+        font-family: 'Big Shoulders Display', sans-serif;
+        font-family: 'Lexend Deca', sans-serif;
+        font-family: 'Lobster', sans-serif;
+        font-family: 'Permanent Marker', cursive;
+        font-family: 'Sedgwick Ave Display', cursive;
+        font-family: 'Ubuntu', sans-serif;
+        width: 78%;
+        line-height: 16px;
+        font-weight: bold;   
+    }
+    .big-small .small{
+        width:30%;
+        height: 265px;
+    }
+    .big-small .small h3{
+        width: 80%;
+        line-height: 26px;
+        margin-top: -8px;
+    }
+    .big-small .small .explan{
+        line-height: 19px;
+    }
+    .big-small .small img{
+        width: 10%;
+    }
+    .big-small .small h3{
+        width: 85%;
+        line-height: 26px;
+    }
+    .small-big{
+        display: block;
+    }
+    .small-big .small{
+        width: 30%;
+        margin-bottom: 20px;
+        height: 265px;
+    }
+    .small-big .small .explan{
+        width: 80%;
+        line-height: 19px;
+    }
+    .small-big .small h3{
+        margin-top: -1px;
+        line-height: 26px;
+    }
+    .small-big .small img{
+        width: 10%;
+    }
+    .small-big .big{
+        width: 30%;
+        height: 450px;
+    }
+    .small-big .big h3{
+        margin-top: 40px;
+        width: 90%;
+        line-height: 30px;
+    }
+    .small-big .big img{
+        margin-left: 35px;
+        margin-right: 35px;
+        width: 10%;
+        position: relative;
+        top: 18px;
+    }
+    .small-big .big .explan{
+        width: 87%;
+        line-height: 19px;
+        margin-top:-10px ;
+    }
+    .last{
+        margin: 8px 0px;
+        width: 346px;
+        height: 450px;
+    }
+    .last img{
+        width: 10%;
+    }
+    .last .name{
+        left: 110px;
+        top: 1575px;
+        position: absolute;
+    }
+    .last .work{
+        position: absolute;
+        left: 110px;
+        top: 1595px;
+    }
+    .last h3{
+        line-height: 28px;
+        width: 100%;
+        margin-top: -5px;
+    }
+    .last .explan{
+        line-height: 19px;
+        width: 88%;
+        margin-top:25px;
+    }
+}
